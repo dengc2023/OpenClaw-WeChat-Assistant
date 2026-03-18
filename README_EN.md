@@ -44,6 +44,17 @@ Traditional automation relies on official APIs. However, for highly closed deskt
 ### 1. Lazy Essential: WeChat OA Reader
 - **Goal**: Solve the "want to read but no time, collecting means reading" pain point.
 - **Capabilities**: Auto-search OAs -> Enter history messages -> Dynamic OCR title matching -> Simulated scroll reading -> Structured knowledge summarization.
+
+#### 🧩 Long-Chain Reasoning Visual Workflow
+
+| Step 1: Search & Home | | Step 2: Browse History | | Step 3: Read Article |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="imgs/search-and-click.gif" width="250"> | <font size="10">➔</font> | <img src="imgs/enter-and-scroll.gif" width="250"> | <font size="10">➔</font> | <img src="imgs/read-first-article.gif" width="250"> |
+| *Search OA and activate main window* | | *Dynamic OCR matching message list* | | *Human-like scrolling and reading* |
+
+- **Significance of Long-Chain Reasoning**: 
+    - This is the most technically profound skill in this project. It requires the agent to maintain task context across multiple UI layers (search page, profile page, message list, article view) in a complex desktop environment.
+    - The agent must make real-time decisions based on visual feedback from each frame (e.g., confirming search results, detecting list loading, identifying the end of an article), showcasing OpenClaw's superior capability in handling high-complexity, multi-step task workflows.
 - **Value**: Let OpenClaw be your 24/7 digital reading secretary. Just read the summary when you want, and free your hands completely.
 
 ### 2. Lazy Social: Social & Collaboration (Developing...)
