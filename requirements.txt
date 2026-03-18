@@ -1,0 +1,19 @@
+# OpenClaw-Desktop-Skillset Core Dependencies
+# CURRENT PRIMARY PLATFORM: macOS
+
+# --- Vision & OCR ---
+opencv-python>=4.8.0
+numpy>=1.24.0
+easyocr>=1.7.0
+Pillow>=10.0.0
+
+# --- macOS Desktop Automation (Required) ---
+pyobjc-core>=9.0
+pyobjc-framework-Quartz>=9.0
+# Note: 'brew install cliclick' is also required on macOS
+
+# --- General Utilities ---
+pydantic>=2.0
+python-dotenv
+psutil
+argparse
