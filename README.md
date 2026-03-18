@@ -58,9 +58,19 @@
     - 智能体必须根据每一帧的视觉反馈（如：是否搜索到目标、是否加载完列表、是否到达文末）进行实时决策，体现了 OpenClaw 处理高复杂、多步骤任务流的卓越上限。
 - **价值**: 让 OpenClaw 成为你的全天候“数字阅读秘书”，彻底解放双手。
 
-### 2. 懒人社交：社交与协作 (Developing...)
-- **自动朋友圈**: 自动抓取前沿资讯并分享，让你在不经意间保持技术敏感度。
-- **懒人文件传输**: 远程驱动 OpenClaw 发送电脑内的文件或图片，解决“人在外面，文件在电脑”的断点。
+### 2. 懒人社交：WeChat 自动化进阶 (Social & Collaboration)
+
+- **WeChat Moments Post (自动发朋友圈)**:
+    - **痛点**: 想发电脑里的美图到朋友圈，却懒得传到手机再操作。
+    - **能力**: 自动打开朋友圈 -> 视觉定位相机图标 -> **跨应用文件选择 (Cmd+Shift+G)** -> 自动粘贴配文并发表。
+    - **技术点**: 解决了复杂弹窗下的焦点切换与路径输入问题，支持全自动发表。
+
+- **WeChat Search-Pick-Send (精准搜索与发送)**:
+    - **痛点**: 联系人太多，手动搜索并确认目标非常繁琐；人在外面，想发电脑里的文件给朋友。
+    - **能力**: 智能搜索联系人/群聊 -> **视觉决策 (从截图识别目标行)** -> 自动进入聊天 -> 发送消息、图片、甚至自动压缩并发送文件夹。
+    - **技术点**: 展现了 OpenClaw 的“视觉决策”能力——从多项搜索结果中通过 OCR 逻辑判断最匹配的目标行，并实现高鲁棒性的键盘导航。
+
+- **懒人文件传输 (Developing...)**: 远程驱动 OpenClaw 在桌面端寻找并发送文件，彻底打破设备间的物理隔阂。
 
 ---
 
@@ -68,7 +78,9 @@
 
 > **"See it in action: Automation with Human-like Precision."**
 
-- [WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (展示了如何全屏搜索、精确定位并滚动阅读)
+- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (全屏搜索、精确定位标题、滚动阅读)
+- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) (自动定位相机图标、跨应用文件选择、自动发表)
+- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) (视觉决策搜索、自动压缩文件夹并发送文件)
 
 ---
 

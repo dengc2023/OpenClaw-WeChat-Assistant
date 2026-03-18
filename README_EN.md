@@ -57,9 +57,19 @@ Traditional automation relies on official APIs. However, for highly closed deskt
     - The agent must make real-time decisions based on visual feedback from each frame (e.g., confirming search results, detecting list loading, identifying the end of an article), showcasing OpenClaw's superior capability in handling high-complexity, multi-step task workflows.
 - **Value**: Let OpenClaw be your 24/7 digital reading secretary. Just read the summary when you want, and free your hands completely.
 
-### 2. Lazy Social: Social & Collaboration (Developing...)
-- **Auto Moments**: Automatically fetch and share frontier news to keep your technical sensitivity.
-- **Lazy File Transfer**: Remotely drive OpenClaw to send files or images from your PC, solving the "out of office, file at home" gap.
+### 2. Lazy Social: WeChat Automation Advanced (Social & Collaboration)
+
+- **WeChat Moments Post**:
+    - **Pain Point**: Want to post high-quality images from PC to Moments, but too lazy to transfer them to mobile.
+    - **Capabilities**: Auto-open Moments -> Visual icon locating -> **Cross-app file picking (Cmd+Shift+G)** -> Auto-pasting caption and publishing.
+    - **Tech Highlight**: Solves focus-switching and path-input challenges in complex popup windows, supporting fully automated publishing.
+
+- **WeChat Search-Pick-Send**:
+    - **Pain Point**: Too many contacts to search manually; need to send PC files to friends while away from the desk.
+    - **Capabilities**: Smart contact/group search -> **Visual Decision Making (identify target row from screenshots)** -> Auto-entering chat -> Sending messages, images, or even auto-zipping folders.
+    - **Tech Highlight**: Showcases OpenClaw's "Visual Decision" capability—interpreting multiple search results via OCR logic to pick the best match with robust keyboard navigation.
+
+- **Lazy File Transfer (Developing...)**: Remotely driving OpenClaw to find and send files on your desktop, breaking physical device barriers.
 
 ---
 
@@ -67,7 +77,9 @@ Traditional automation relies on official APIs. However, for highly closed deskt
 
 > **"Experience Automation with Human-like Precision."**
 
-- [WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (Showcases full-screen search, precise title locating, and automated scrolling)
+- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (Full-screen search, precise title locating, and automated scrolling)
+- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) (Visual icon locating, cross-app file picking, and auto-publishing)
+- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) (Visual decision search, auto-zipping and sending files)
 
 ---
 
