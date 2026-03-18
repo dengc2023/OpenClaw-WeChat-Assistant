@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha-blue.svg)](VERSION)
 [![Powered by](https://img.shields.io/badge/powered%20by-OpenClaw-orange.svg)](https://github.com/OpenClaw/openclaw)
 [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)](#-相关配置-configuration)
-[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](docs/index.html)
+[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](https://dengc2023.github.io/OpenClaw-Desktop-Skillset/docs/index.html)
 
 **中文版** | [English Version](README_EN.md)
 
@@ -16,7 +16,7 @@
 > **"Experience the precision of OpenClaw-Desktop-Skillset in our interactive showcase."**
 
 我们为本项目打造了一个专属的展示网页，包含全技能的演示视频和交互式介绍：
-👉 **[点击访问在线演示页](docs/index.html)**
+👉 **[点击访问在线演示页](https://dengc2023.github.io/OpenClaw-Desktop-Skillset/docs/index.html)**
 
 ![Website Preview](https://via.placeholder.com/800x450/1D3557/F1FAEE?text=OpenClaw+Desktop+Skillset+Showcase+Website+Preview)
 *(注：请在 GitHub Pages 开启后替换为真实的网页截图)*

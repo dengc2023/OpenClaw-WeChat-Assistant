@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha-blue.svg)](VERSION)
 [![Powered by](https://img.shields.io/badge/powered%20by-OpenClaw-orange.svg)](https://github.com/OpenClaw/openclaw)
 [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)](#-configuration)
-[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](docs/index.html)
+[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](https://dengc2023.github.io/OpenClaw-Desktop-Skillset/docs/index.html)
 
 [中文版 (Chinese)](README.md) | **English**
 
