@@ -78,9 +78,9 @@
 
 > **"See it in action: Automation with Human-like Precision."**
 
-- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (全屏搜索、精确定位标题、滚动阅读)
-- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) (自动定位相机图标、跨应用文件选择、自动发表)
-- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) (视觉决策搜索、自动压缩文件夹并发送文件)
+- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (微信公众号自动阅读)
+- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) (微信自动发朋友圈)
+- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) (微信指定好友/群聊自动发消息、传文件)
 
 ---
 
@@ -100,10 +100,6 @@
 ### 2. Python 环境
 - **Conda 环境**: 建议使用 `base` 或专门的 OpenClaw 环境。
 - **核心依赖**: 详见 `requirements.txt`。
-
-### 3. 屏幕与缩放 (Retina 校准)
-- **核心逻辑**: 针对 macOS Retina 屏幕（2x 缩放），截图获取的像素坐标需进行 **`/2`** 处理后方才传给 `cliclick` 使用。本项目内置脚本已自动处理此逻辑。
-- **界面设置**: 建议微信客户端设置为“全屏模式”以保证视觉锚点的稳定性。
 
 ---
 
