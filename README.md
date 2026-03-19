@@ -1,11 +1,11 @@
-# 🦞 OpenClaw-Desktop-Skillset
+# 🦞 OpenClaw-WeChat-Assistant
 
-> **OpenClaw 桌面技能集：为 AI 从业者打造的全天候“数字分身”。**
+> **OpenClaw 微信全自动化助手：为 AI 从业者打造的全天候“数字分身”。**
 
 [![Version](https://img.shields.io/badge/version-0.1.0--alpha-blue.svg)](VERSION)
 [![Powered by](https://img.shields.io/badge/powered%20by-OpenClaw-orange.svg)](https://github.com/OpenClaw/openclaw)
 [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)](#-相关配置-configuration)
-[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](https://dengc2023.github.io/OpenClaw-Desktop-Skillset/docs/index.html)
+[![Live Demo](https://img.shields.io/badge/demo-Live%20Showcase-E63946.svg)](https://dengc2023.github.io/OpenClaw-WeChat-Assistant/docs/index.html)
 
 **中文版** | [English Version](README_EN.md)
 
@@ -13,10 +13,10 @@
 
 ## 🌐 在线展示页 (Live Showcase)
 
-> **"Experience the precision of OpenClaw-Desktop-Skillset in our interactive showcase."**
+> **"Experience the precision of OpenClaw-WeChat-Assistant in our interactive showcase."**
 
 我们为本项目打造了一个专属的展示网页，包含全技能的演示视频和交互式介绍：
-👉 **[点击访问在线演示页](https://dengc2023.github.io/OpenClaw-Desktop-Skillset/docs/index.html)**
+👉 **[点击访问在线演示页](https://dengc2023.github.io/OpenClaw-WeChat-Assistant/docs/index.html)**
 
 ![Website Preview](imgs/web_preview.png)
 
@@ -32,7 +32,7 @@
 
 传统的自动化方案往往依赖于官方 API，但对于微信等高度封闭的桌面端应用，**官方并未提供任何用于读取、搜索或社交操作的 API**。这使得传统的爬虫或集成方案彻底失效。
 
-**OpenClaw-Desktop-Skillset** 选择了最困难但最彻底的路径：
+**OpenClaw-WeChat-Assistant** 选择了最困难但最彻底的路径：
 - **视觉驱动 (Vision-Driven)**: 像人类操作员一样，通过“看”（OCR/图像匹配）和“动”（模拟点击/按键）来驱动 UI。
 - **零 API 依赖**: 无论应用是否开放接口，只要屏幕上有 UI，OpenClaw 就能操作。
 - **真实环境模拟**: 这种方式最贴近用户真实操作，能够绕过接口限制，实现真正的“全桌面自动化”。
@@ -40,6 +40,7 @@
 ---
 
 ## 🚀 核心技能库 (Core Skillset)
+
 ### 1. 懒人必备：WeChat OA Reader (公众号自动阅读与整理)
 - **目标**: 解决“想看却没时间看，收藏了就等于看了”的懒人痛点。
 - **能力**: 自动搜索公众号 -> 进入历史消息 -> OCR 动态匹配标题 -> 模拟滚动阅读 -> 生成结构化知识总结。
@@ -52,9 +53,7 @@
 | *搜索公众号并激活主界面* | | *OCR 动态匹配历史消息* | | *模拟人类习惯进行滚动阅读* |
 
 - **长链路推理意义 (Long-Chain Reasoning)**: 
-
-    - 它要求智能体在复杂的 UI 环境中跨越多个层级（搜索页、主页、列表页、正文页）保持任务上下文。
-
+    - 这是本项目最具技术深度的技能。它要求智能体在复杂的 UI 环境中跨越多个层级（搜索页、主页、列表页、正文页）保持任务上下文。
     - 智能体必须根据每一帧的视觉反馈（如：是否搜索到目标、是否加载完列表、是否到达文末）进行实时决策，体现了 OpenClaw 处理高复杂、多步骤任务流的卓越上限。
 - **价值**: 让 OpenClaw 成为你的全天候“数字阅读秘书”，彻底解放双手。
 
@@ -78,9 +77,9 @@
 
 > **"See it in action: Automation with Human-like Precision."**
 
-- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) (微信公众号自动阅读)
-- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) (微信自动发朋友圈)
-- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) (微信指定好友/群聊自动发消息、传文件)
+- [📖 WeChat OA Reader Demo](examples/demos/wechat-oa-reader-demo.mp4) （自动进入公众号主页阅读/总结）
+- [🤳 WeChat Moments Post Demo](examples/demos/wechat-moments-post-demo.mp4) （自动发朋友圈）
+- [📁 WeChat Search-Pick-Send Demo](examples/demos/wechat-search-pick-send-demo.mp4) （指定好友/群聊自动发消息/图片/文件）
 
 ---
 
@@ -100,6 +99,10 @@
 ### 2. Python 环境
 - **Conda 环境**: 建议使用 `base` 或专门的 OpenClaw 环境。
 - **核心依赖**: 详见 `requirements.txt`。
+
+### 3. 屏幕与缩放 (Retina 校准)
+- **核心逻辑**: 针对 macOS Retina 屏幕（2x 缩放），截图获取的像素坐标需进行 **`/2`** 处理后方才传给 `cliclick` 使用。本项目内置脚本已自动处理此逻辑。
+- **界面设置**: 建议微信客户端设置为“全屏模式”以保证视觉锚点的稳定性。
 
 ---
 
